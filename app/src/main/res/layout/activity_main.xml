@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,8 +10,12 @@
     <hmaliborski.com.circleview.view.CircleView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:isBorder="true"
-        app:circleColor="#75b61f"
-        app:borderColor="#111111"/>
-
-</android.support.constraint.ConstraintLayout>
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:borderColor="#b1d796"
+        app:borderWidth="20"
+        app:circleColor="#dde7d0"
+        app:loadingColor="#6772d1"
+        app:titleSize="9"
+        app:titleText="Test text"/>
+</LinearLayout>
