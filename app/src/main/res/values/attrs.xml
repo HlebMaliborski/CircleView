@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CircleView">
-        <attr name="isBorder" format="boolean"/>
-        <attr name="borderColor" format="color"/>
+        <attr name="circleBorderWidth" format="integer"/>
+        <attr name="circleBorderColor" format="color"/>
         <attr name="circleColor" format="color"/>
+        <attr name="circleLoadingColor" format="color"/>
     </declare-styleable>
 </resources>
